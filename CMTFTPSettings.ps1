@@ -10,18 +10,13 @@
       - Jorgen Nilsson <https://www.ccmexec.com/>
 
   .NOTES
+    Works with PowerShell 7.1+
+
+  .NOTES
     Updated By:   Cameron Kollwitz <cameron@kollwitz.us>
     Version:      1.1.1
     Date:         2021-05-16
     File Name:    CMTFTPSettings.ps1
-
-  .NOTES CHANGELOG
-    [2021-05-16]
-      - Create and commit to dedicated repository.
-    [2021-01-27]
-      - Update terminology from "SCCM" to "ConfigMgr" or "CM" (where appropriate).
-      - Update PXE service from WDS to built-in "SccmPxe" (which is better - fite me on it!)
-      - Linting all the things!
 #>
 
 $inputXML = @'
